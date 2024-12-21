@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>
+
+Мы стремимся сделать покупку игровой техники максимально комфортной для тебя! Если у тебя возникли вопросы, пожелания или нужна помощь — наша команда всегда готова помочь. Не стесняйся обращаться к нам!
+
+Ты можешь оставить свои контактные данные, и мы свяжемся с тобой в кратчайшие сроки. Также ты можешь воспользоваться нашими телефонами для прямого общения.
+
+Мы ценим каждого клиента и готовы ответить на любые вопросы. Твоя удовлетворенность — наша главная цель!
+Контакты:
+- Телефон: +79562348511
+- Email: igamecompany@gmail.com
+
+</value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>1. Как я могу отслеживать свой заказ?  
+После оформления заказа ты получишь на указанный email трек-номер для отслеживания доставки. Также ты можешь связаться с нашей службой поддержки для получения актуальной информации о статусе заказа.
+
+2. Каковы сроки доставки?  
+Сроки доставки зависят от выбранного метода. Обычно, курьерская доставка занимает от 1 до 3 дней, а при использовании почтовых служб — до 7 дней. Мы всегда стараемся доставить товар как можно быстрее!
+
+3. Можно ли вернуть товар, если он мне не подошёл?  
+Да, у нас есть политика возврата. Ты можешь вернуть товар в течение 14 дней с момента получения, если он не использовался и находится в оригинальной упаковке. Пожалуйста, ознакомься с условиями возврата в нашем приложении.
+
+4. Предоставляете ли вы гарантию на товары?  
+Да, на всю нашу продукцию распространяется гарантия от производителя. Если у тебя возникли проблемы с товаром, пожалуйста, свяжись с нашей службой поддержки для получения информации о гарантийном обслуживании.</value>
+  </data>
+</root>
