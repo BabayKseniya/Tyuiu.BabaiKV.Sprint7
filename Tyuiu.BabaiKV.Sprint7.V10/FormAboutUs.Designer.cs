@@ -54,7 +54,7 @@
             // 
             // buttonOKAboutUs_BKV
             // 
-            buttonOKAboutUs_BKV.BackColor = Color.MediumPurple;
+            buttonOKAboutUs_BKV.BackColor = Color.Thistle;
             buttonOKAboutUs_BKV.FlatStyle = FlatStyle.Popup;
             buttonOKAboutUs_BKV.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 204);
             buttonOKAboutUs_BKV.ForeColor = Color.Indigo;
@@ -65,6 +65,7 @@
             buttonOKAboutUs_BKV.Text = "OK";
             buttonOKAboutUs_BKV.TextAlign = ContentAlignment.TopCenter;
             buttonOKAboutUs_BKV.UseVisualStyleBackColor = false;
+            buttonOKAboutUs_BKV.Click += buttonOKAboutUs_BKV_Click;
             // 
             // textBox2
             // 
@@ -105,7 +106,6 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImageLayout = ImageLayout.Center;
             pictureBox1.ErrorImage = (Image)resources.GetObject("pictureBox1.ErrorImage");
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.ImageLocation = "100;100";
             pictureBox1.Location = new Point(45, 183);
             pictureBox1.Name = "pictureBox1";

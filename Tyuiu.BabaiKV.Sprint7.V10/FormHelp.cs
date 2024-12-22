@@ -16,5 +16,10 @@ namespace Tyuiu.BabaiKV.Sprint7.V10
         {
             InitializeComponent();
         }
+
+        private void buttonOK_BKV_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

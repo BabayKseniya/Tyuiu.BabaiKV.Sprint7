@@ -55,7 +55,7 @@
             panel1.Controls.Add(tabControlDetalyZak_BKV);
             panel1.Controls.Add(buttonOK_BKV);
             panel1.Dock = DockStyle.Right;
-            panel1.Location = new Point(282, 0);
+            panel1.Location = new Point(253, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(531, 561);
             panel1.TabIndex = 0;
@@ -88,7 +88,7 @@
             // 
             textBox1.BackColor = Color.Thistle;
             textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            textBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
             textBox1.ForeColor = SystemColors.InactiveCaptionText;
             textBox1.Location = new Point(6, 6);
             textBox1.Multiline = true;
@@ -112,10 +112,11 @@
             // 
             textBox2.BackColor = Color.Thistle;
             textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            textBox2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
             textBox2.Location = new Point(6, 6);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
+            textBox2.ScrollBars = ScrollBars.Vertical;
             textBox2.Size = new Size(493, 452);
             textBox2.TabIndex = 0;
             textBox2.Text = resources.GetString("textBox2.Text");
@@ -136,10 +137,11 @@
             // 
             textBoxDetalyZak.BackColor = Color.Thistle;
             textBoxDetalyZak.BorderStyle = BorderStyle.None;
-            textBoxDetalyZak.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            textBoxDetalyZak.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
             textBoxDetalyZak.Location = new Point(6, 3);
             textBoxDetalyZak.Multiline = true;
             textBoxDetalyZak.Name = "textBoxDetalyZak";
+            textBoxDetalyZak.ScrollBars = ScrollBars.Vertical;
             textBoxDetalyZak.Size = new Size(493, 445);
             textBoxDetalyZak.TabIndex = 0;
             textBoxDetalyZak.Text = resources.GetString("textBoxDetalyZak.Text");
@@ -156,6 +158,7 @@
             buttonOK_BKV.TabIndex = 1;
             buttonOK_BKV.Text = "OK";
             buttonOK_BKV.UseVisualStyleBackColor = false;
+            buttonOK_BKV.Click += buttonOK_BKV_Click;
             // 
             // panel2
             // 
@@ -165,7 +168,7 @@
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(282, 561);
+            panel2.Size = new Size(253, 561);
             panel2.TabIndex = 1;
             // 
             // pictureBox1
@@ -187,12 +190,14 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Indigo;
-            ClientSize = new Size(813, 561);
+            ClientSize = new Size(784, 561);
             Controls.Add(panel2);
             Controls.Add(panel1);
             MaximizeBox = false;
+            MaximumSize = new Size(800, 600);
             MinimumSize = new Size(800, 600);
             Name = "FormDatalyZak";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "О доставке";
             panel1.ResumeLayout(false);
             tabControlDetalyZak_BKV.ResumeLayout(false);

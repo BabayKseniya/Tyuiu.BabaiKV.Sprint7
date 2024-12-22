@@ -41,7 +41,7 @@
             buttonDetalyZak_BKV = new Button();
             buttonAboutUs_BKV = new Button();
             buttonGlavMeny_BKV = new Button();
-            contextMenuStrip1 = new ContextMenuStrip(components);
+            toolTipGlavMeny_BKV = new ToolTip(components);
             panelup.SuspendLayout();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -113,6 +113,7 @@
             buttonOtzivi_BKV.Name = "buttonOtzivi_BKV";
             buttonOtzivi_BKV.Size = new Size(62, 65);
             buttonOtzivi_BKV.TabIndex = 6;
+            toolTipGlavMeny_BKV.SetToolTip(buttonOtzivi_BKV, "Во вкладке \"Отзывы\" вы сможете найти отзывы других пользователей на наш магазин.\r\n");
             buttonOtzivi_BKV.UseVisualStyleBackColor = true;
             // 
             // buttonHelp_BKV
@@ -123,7 +124,9 @@
             buttonHelp_BKV.Name = "buttonHelp_BKV";
             buttonHelp_BKV.Size = new Size(62, 65);
             buttonHelp_BKV.TabIndex = 5;
+            toolTipGlavMeny_BKV.SetToolTip(buttonHelp_BKV, "Во вкладке \"Помощь\" вы сможете найти краткое руководство пользователя, ответы на актуальные вопросы, а также контакты для связи с поддержкой.");
             buttonHelp_BKV.UseVisualStyleBackColor = true;
+            buttonHelp_BKV.Click += buttonHelp_BKV_Click;
             // 
             // buttonCatalog_BKV
             // 
@@ -137,12 +140,13 @@
             buttonCatalog_BKV.Size = new Size(277, 54);
             buttonCatalog_BKV.TabIndex = 4;
             buttonCatalog_BKV.Text = "Наш Ассортимент";
+            toolTipGlavMeny_BKV.SetToolTip(buttonCatalog_BKV, "Во вкладке \"Наш ассортимент\" вы сможете найти интересующий вас товар. ");
             buttonCatalog_BKV.UseVisualStyleBackColor = false;
             buttonCatalog_BKV.Click += buttonCatalog_BKV_Click;
             // 
             // textBoxKatalog_BKV
             // 
-            textBoxKatalog_BKV.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxKatalog_BKV.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textBoxKatalog_BKV.BackColor = Color.Indigo;
             textBoxKatalog_BKV.BorderStyle = BorderStyle.None;
             textBoxKatalog_BKV.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
@@ -165,7 +169,10 @@
             buttonDetalyZak_BKV.Name = "buttonDetalyZak_BKV";
             buttonDetalyZak_BKV.Size = new Size(62, 65);
             buttonDetalyZak_BKV.TabIndex = 2;
+            buttonDetalyZak_BKV.Text = "\r\n\r\n\r\n";
+            toolTipGlavMeny_BKV.SetToolTip(buttonDetalyZak_BKV, "В вкладке \"Оплата и доставка\" вы можете ознакомиться со способами оплаты и доставки. Также здесь вы найдёте этапы доставки.\r\n");
             buttonDetalyZak_BKV.UseVisualStyleBackColor = true;
+            buttonDetalyZak_BKV.Click += buttonDetalyZak_BKV_Click;
             // 
             // buttonAboutUs_BKV
             // 
@@ -175,7 +182,9 @@
             buttonAboutUs_BKV.Name = "buttonAboutUs_BKV";
             buttonAboutUs_BKV.Size = new Size(65, 65);
             buttonAboutUs_BKV.TabIndex = 1;
+            toolTipGlavMeny_BKV.SetToolTip(buttonAboutUs_BKV, "В вкладке \"О нас\" вы можете лучше ознакомиться с нашей компанией.\r\n");
             buttonAboutUs_BKV.UseVisualStyleBackColor = true;
+            buttonAboutUs_BKV.Click += buttonAboutUs_BKV_Click;
             // 
             // buttonGlavMeny_BKV
             // 
@@ -187,11 +196,14 @@
             buttonGlavMeny_BKV.TabIndex = 0;
             buttonGlavMeny_BKV.TextImageRelation = TextImageRelation.TextAboveImage;
             buttonGlavMeny_BKV.UseVisualStyleBackColor = true;
+            buttonGlavMeny_BKV.Click += buttonGlavMeny_BKV_Click;
             // 
-            // contextMenuStrip1
+            // toolTipGlavMeny_BKV
             // 
-            contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new Size(61, 4);
+            toolTipGlavMeny_BKV.BackColor = Color.Thistle;
+            toolTipGlavMeny_BKV.IsBalloon = true;
+            toolTipGlavMeny_BKV.ToolTipIcon = ToolTipIcon.Info;
+            toolTipGlavMeny_BKV.ToolTipTitle = "Подсказка";
             // 
             // FormMain
             // 
@@ -221,11 +233,11 @@
         private Button buttonAboutUs_BKV;
         private Button buttonDetalyZak_BKV;
         private TextBox textBoxKatalog_BKV;
-        private ContextMenuStrip contextMenuStrip1;
         private Button buttonCatalog_BKV;
         private TextBox textBoxNazvanie_BKV;
         private TextBox textBoxDeviz_BKV;
         private Button buttonHelp_BKV;
         private Button buttonOtzivi_BKV;
+        private ToolTip toolTipGlavMeny_BKV;
     }
 }

@@ -21,5 +21,10 @@ namespace Tyuiu.BabaiKV.Sprint7.V10
         {
 
         }
+
+        private void buttonOKAboutUs_BKV_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
