@@ -9,6 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using Tyuiu.BabaiKV.Sprint7.V10.Lib;
+using System.CodeDom.Compiler;
+using System.Runtime.CompilerServices;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.Threading;
 namespace Tyuiu.BabaiKV.Sprint7.V10
 {
     public partial class FormOtziv : Form
@@ -68,6 +73,18 @@ namespace Tyuiu.BabaiKV.Sprint7.V10
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonChartAddLine_BKV_Click(object sender, EventArgs e) //создание графа
+        {
+           
+        }
+
+        private void buttonCalculation_Click(object sender, EventArgs e)
+        {
+            FormCalculation formCalculation = new FormCalculation();
+            formCalculation.ShowDialog();
+            
         }
     }
 }

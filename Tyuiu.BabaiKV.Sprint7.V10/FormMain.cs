@@ -9,7 +9,8 @@ namespace Tyuiu.BabaiKV.Sprint7.V10
 
         private void buttonCatalog_BKV_Click(object sender, EventArgs e)
         {
-
+            FormCatalog formCatalog = new FormCatalog();
+            formCatalog.Show();
         }
 
         private void buttonAboutUs_BKV_Click(object sender, EventArgs e)

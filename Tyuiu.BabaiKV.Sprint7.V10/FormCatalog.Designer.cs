@@ -28,20 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            groupBox1 = new GroupBox();
             SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            groupBox1.Location = new Point(12, 139);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(1862, 910);
+            groupBox1.TabIndex = 0;
+            groupBox1.TabStop = false;
             // 
             // FormCatalog
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Thistle;
-            ClientSize = new Size(1231, 698);
+            ClientSize = new Size(1878, 1061);
+            Controls.Add(groupBox1);
             Name = "FormCatalog";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Каталог";
+            WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
         }
 
         #endregion
+
+        private GroupBox groupBox1;
     }
 }

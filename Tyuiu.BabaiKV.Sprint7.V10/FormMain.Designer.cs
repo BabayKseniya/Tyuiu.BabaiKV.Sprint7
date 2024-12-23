@@ -37,7 +37,6 @@
             buttonOtzivi_BKV = new Button();
             buttonHelp_BKV = new Button();
             buttonCatalog_BKV = new Button();
-            textBoxKatalog_BKV = new TextBox();
             buttonDetalyZak_BKV = new Button();
             buttonAboutUs_BKV = new Button();
             buttonGlavMeny_BKV = new Button();
@@ -96,7 +95,6 @@
             panel1.Controls.Add(buttonOtzivi_BKV);
             panel1.Controls.Add(buttonHelp_BKV);
             panel1.Controls.Add(buttonCatalog_BKV);
-            panel1.Controls.Add(textBoxKatalog_BKV);
             panel1.Controls.Add(buttonDetalyZak_BKV);
             panel1.Controls.Add(buttonAboutUs_BKV);
             panel1.Controls.Add(buttonGlavMeny_BKV);
@@ -136,31 +134,14 @@
             buttonCatalog_BKV.FlatStyle = FlatStyle.Popup;
             buttonCatalog_BKV.Font = new Font("Constantia", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
             buttonCatalog_BKV.ForeColor = Color.Indigo;
-            buttonCatalog_BKV.Location = new Point(473, 64);
+            buttonCatalog_BKV.Location = new Point(473, 13);
             buttonCatalog_BKV.Name = "buttonCatalog_BKV";
-            buttonCatalog_BKV.Size = new Size(277, 54);
+            buttonCatalog_BKV.Size = new Size(277, 112);
             buttonCatalog_BKV.TabIndex = 4;
             buttonCatalog_BKV.Text = "Наш Ассортимент";
             toolTipGlavMeny_BKV.SetToolTip(buttonCatalog_BKV, "Во вкладке \"Наш ассортимент\" вы сможете найти интересующий вас товар. ");
             buttonCatalog_BKV.UseVisualStyleBackColor = false;
             buttonCatalog_BKV.Click += buttonCatalog_BKV_Click;
-            // 
-            // textBoxKatalog_BKV
-            // 
-            textBoxKatalog_BKV.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            textBoxKatalog_BKV.BackColor = Color.Indigo;
-            textBoxKatalog_BKV.BorderStyle = BorderStyle.None;
-            textBoxKatalog_BKV.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            textBoxKatalog_BKV.ForeColor = Color.Thistle;
-            textBoxKatalog_BKV.Location = new Point(461, 13);
-            textBoxKatalog_BKV.Multiline = true;
-            textBoxKatalog_BKV.Name = "textBoxKatalog_BKV";
-            textBoxKatalog_BKV.ReadOnly = true;
-            textBoxKatalog_BKV.Size = new Size(277, 45);
-            textBoxKatalog_BKV.TabIndex = 3;
-            textBoxKatalog_BKV.Text = "Перейти в каталог";
-            textBoxKatalog_BKV.TextAlign = HorizontalAlignment.Right;
-            textBoxKatalog_BKV.WordWrap = false;
             // 
             // buttonDetalyZak_BKV
             // 
@@ -219,10 +200,10 @@
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Главное меню";
+            WindowState = FormWindowState.Maximized;
             panelup.ResumeLayout(false);
             panelup.PerformLayout();
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -233,7 +214,6 @@
         private Button buttonGlavMeny_BKV;
         private Button buttonAboutUs_BKV;
         private Button buttonDetalyZak_BKV;
-        private TextBox textBoxKatalog_BKV;
         private Button buttonCatalog_BKV;
         private TextBox textBoxNazvanie_BKV;
         private TextBox textBoxDeviz_BKV;
