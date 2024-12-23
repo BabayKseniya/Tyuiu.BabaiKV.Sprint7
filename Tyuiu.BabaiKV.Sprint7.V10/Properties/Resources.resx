@@ -118,8 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="787ece12d99080845884c23aec541ca1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\787ece12d99080845884c23aec541ca1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="console-controller (2)10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\console-controller (2)11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="console-controller (2)8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\console-controller (2)8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="photo_2024-12-11_00-49-09" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\photo_2024-12-11_00-49-09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,17 +130,20 @@
   <data name="console-controller (2)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\console-controller (2)3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="console-controller (2)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\console-controller (2)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="цветы клинок" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\цветы клинок.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="сакура" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\сакура.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ари" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ари.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="console-controller (2)6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\console-controller (2)6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="console-controller (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\console-controller (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,14 +151,17 @@
   <data name="1c1d8fa7-6bfc-4df3-8529-bf9ccf2e5b92" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1c1d8fa7-6bfc-4df3-8529-bf9ccf2e5b92.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="console-controller (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\console-controller (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="8a14a89296880edb9dc976c16aa04101" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8a14a89296880edb9dc976c16aa04101.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="console-controller (2)7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\console-controller (2)7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="console-controller (2)9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\console-controller (2)9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="console-controller (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\console-controller (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="console-controller (2)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\console-controller (2)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="console-controller (2)5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\console-controller (2)5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,19 +169,28 @@
   <data name="console-controller (2)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\console-controller (2)4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="console-controller (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\console-controller (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="787ece12d99080845884c23aec541ca1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\787ece12d99080845884c23aec541ca1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="46ff11e9639aa58905bdb6084e39fdee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\46ff11e9639aa58905bdb6084e39fdee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shopping_18314178" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shopping_18314178.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="цветы клинок1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\цветы клинок1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="console-controller (2)7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\console-controller (2)7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="5420086653122372910" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5420086653122372910.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="цветы клинок1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\цветы клинок1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="9b6795c5-4542-43f4-9d79-6bec83fd7af9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9b6795c5-4542-43f4-9d79-6bec83fd7af9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="console-controller (2)10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\console-controller (2)12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

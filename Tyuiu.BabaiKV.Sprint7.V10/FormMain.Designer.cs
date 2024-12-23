@@ -115,6 +115,7 @@
             buttonOtzivi_BKV.TabIndex = 6;
             toolTipGlavMeny_BKV.SetToolTip(buttonOtzivi_BKV, "Во вкладке \"Отзывы\" вы сможете найти отзывы других пользователей на наш магазин.\r\n");
             buttonOtzivi_BKV.UseVisualStyleBackColor = true;
+            buttonOtzivi_BKV.Click += buttonOtzivi_BKV_Click;
             // 
             // buttonHelp_BKV
             // 

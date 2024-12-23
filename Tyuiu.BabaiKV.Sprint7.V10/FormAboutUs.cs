@@ -26,5 +26,10 @@ namespace Tyuiu.BabaiKV.Sprint7.V10
         {
             this.Close();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

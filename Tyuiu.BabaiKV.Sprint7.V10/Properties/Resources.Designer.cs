@@ -73,6 +73,16 @@ namespace Tyuiu.BabaiKV.Sprint7.V10.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _46ff11e9639aa58905bdb6084e39fdee {
+            get {
+                object obj = ResourceManager.GetObject("46ff11e9639aa58905bdb6084e39fdee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _5420086653122372910 {
             get {
                 object obj = ResourceManager.GetObject("5420086653122372910", resourceCulture);
@@ -126,6 +136,16 @@ namespace Tyuiu.BabaiKV.Sprint7.V10.Properties {
         internal static System.Drawing.Bitmap console_controller__2_1 {
             get {
                 object obj = ResourceManager.GetObject("console-controller (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap console_controller__2_10 {
+            get {
+                object obj = ResourceManager.GetObject("console-controller (2)10", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,6 +213,26 @@ namespace Tyuiu.BabaiKV.Sprint7.V10.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap console_controller__2_8 {
+            get {
+                object obj = ResourceManager.GetObject("console-controller (2)8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap console_controller__2_9 {
+            get {
+                object obj = ResourceManager.GetObject("console-controller (2)9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap info {
             get {
                 object obj = ResourceManager.GetObject("info", resourceCulture);
@@ -216,6 +256,16 @@ namespace Tyuiu.BabaiKV.Sprint7.V10.Properties {
         internal static System.Drawing.Bitmap shopping_18314178 {
             get {
                 object obj = ResourceManager.GetObject("shopping_18314178", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ари {
+            get {
+                object obj = ResourceManager.GetObject("ари", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

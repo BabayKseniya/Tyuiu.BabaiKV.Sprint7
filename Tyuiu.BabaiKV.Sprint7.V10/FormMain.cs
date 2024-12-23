@@ -32,7 +32,13 @@ namespace Tyuiu.BabaiKV.Sprint7.V10
 
         private void buttonGlavMeny_BKV_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void buttonOtzivi_BKV_Click(object sender, EventArgs e)
+        {
+            FormOtziv formoOtziv = new FormOtziv();
+            formoOtziv.Show();
         }
     }
 }
