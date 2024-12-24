@@ -28,10 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            button1 = new Button();
+            components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            buttonOK_BKV = new Button();
             groupBoxOtziv = new GroupBox();
             chartProduct = new System.Windows.Forms.DataVisualization.Charting.Chart();
             dataGridViewOtziv_BKV = new DataGridView();
@@ -40,8 +41,7 @@
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             buttonChartAddLine_BKV = new Button();
-            button2 = new Button();
-            buttonCalculation = new Button();
+            toolTipOtziv = new ToolTip(components);
             groupBoxOtziv.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)chartProduct).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewOtziv_BKV).BeginInit();
@@ -49,22 +49,22 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // button1
+            // buttonOK_BKV
             // 
-            button1.BackColor = Color.Thistle;
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            button1.Location = new Point(300, 683);
-            button1.Name = "button1";
-            button1.Size = new Size(131, 59);
-            button1.TabIndex = 1;
-            button1.Text = "Закрыть";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            buttonOK_BKV.BackColor = Color.Thistle;
+            buttonOK_BKV.FlatStyle = FlatStyle.Popup;
+            buttonOK_BKV.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            buttonOK_BKV.Location = new Point(300, 683);
+            buttonOK_BKV.Name = "buttonOK_BKV";
+            buttonOK_BKV.Size = new Size(131, 59);
+            buttonOK_BKV.TabIndex = 1;
+            buttonOK_BKV.Text = "Закрыть";
+            toolTipOtziv.SetToolTip(buttonOK_BKV, "Закрыть отзывы");
+            buttonOK_BKV.UseVisualStyleBackColor = false;
+            buttonOK_BKV.Click += buttonOK_BKV_Click_1;
             // 
             // groupBoxOtziv
             // 
-            groupBoxOtziv.Controls.Add(buttonCalculation);
             groupBoxOtziv.Controls.Add(chartProduct);
             groupBoxOtziv.Controls.Add(dataGridViewOtziv_BKV);
             groupBoxOtziv.Location = new Point(284, 98);
@@ -75,16 +75,19 @@
             // 
             // chartProduct
             // 
-            chartArea2.Name = "ChartArea1";
-            chartProduct.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            chartProduct.Legends.Add(legend2);
+            chartProduct.BackColor = Color.Thistle;
+            chartArea1.Name = "ChartArea1";
+            chartProduct.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            chartProduct.Legends.Add(legend1);
             chartProduct.Location = new Point(625, 20);
             chartProduct.Name = "chartProduct";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            chartProduct.Series.Add(series2);
+            chartProduct.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            chartProduct.Series.Add(series1);
             chartProduct.Size = new Size(482, 535);
             chartProduct.TabIndex = 1;
             chartProduct.Text = "chart1";
@@ -112,6 +115,7 @@
             buttonOstavOtziv_BKV.Size = new Size(209, 59);
             buttonOstavOtziv_BKV.TabIndex = 3;
             buttonOstavOtziv_BKV.Text = "Оставить отзыв";
+            toolTipOtziv.SetToolTip(buttonOstavOtziv_BKV, "Оставьте своё мнение о нашей продукции ");
             buttonOstavOtziv_BKV.UseVisualStyleBackColor = false;
             buttonOstavOtziv_BKV.Click += buttonOstavOtziv_BKV_Click;
             // 
@@ -124,6 +128,7 @@
             textBox1.Location = new Point(554, 46);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
             textBox1.Size = new Size(548, 46);
             textBox1.TabIndex = 4;
             textBox1.Text = "Отзывы наших дорогих покупателей";
@@ -159,34 +164,15 @@
             buttonChartAddLine_BKV.Size = new Size(182, 59);
             buttonChartAddLine_BKV.TabIndex = 6;
             buttonChartAddLine_BKV.Text = "Добавить ";
+            toolTipOtziv.SetToolTip(buttonChartAddLine_BKV, "Посмотреть график оценок");
             buttonChartAddLine_BKV.UseVisualStyleBackColor = false;
             buttonChartAddLine_BKV.Click += buttonChartAddLine_BKV_Click;
             // 
-            // button2
+            // toolTipOtziv
             // 
-            button2.BackColor = Color.Thistle;
-            button2.FlatStyle = FlatStyle.Popup;
-            button2.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            button2.Location = new Point(1096, 683);
-            button2.Name = "button2";
-            button2.Size = new Size(168, 59);
-            button2.TabIndex = 7;
-            button2.Text = "Очистить";
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // buttonCalculation
-            // 
-            buttonCalculation.BackColor = Color.Indigo;
-            buttonCalculation.FlatStyle = FlatStyle.Popup;
-            buttonCalculation.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            buttonCalculation.ForeColor = Color.Thistle;
-            buttonCalculation.Location = new Point(493, 473);
-            buttonCalculation.Name = "buttonCalculation";
-            buttonCalculation.Size = new Size(107, 72);
-            buttonCalculation.TabIndex = 2;
-            buttonCalculation.Text = "Операции";
-            buttonCalculation.UseVisualStyleBackColor = false;
-            buttonCalculation.Click += buttonCalculation_Click;
+            toolTipOtziv.BackColor = Color.Thistle;
+            toolTipOtziv.IsBalloon = true;
+            toolTipOtziv.ToolTipTitle = "Подсказка";
             // 
             // FormOtziv
             // 
@@ -194,13 +180,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Indigo;
             ClientSize = new Size(1398, 773);
-            Controls.Add(button2);
             Controls.Add(buttonChartAddLine_BKV);
             Controls.Add(panel1);
             Controls.Add(textBox1);
             Controls.Add(buttonOstavOtziv_BKV);
             Controls.Add(groupBoxOtziv);
-            Controls.Add(button1);
+            Controls.Add(buttonOK_BKV);
             MaximizeBox = false;
             MaximumSize = new Size(1414, 812);
             MinimumSize = new Size(1414, 812);
@@ -217,7 +202,7 @@
         }
 
         #endregion
-        private Button button1;
+        private Button buttonOK_BKV;
         private GroupBox groupBoxOtziv;
         private DataGridView dataGridViewOtziv_BKV;
         private Button buttonOstavOtziv_BKV;
@@ -225,8 +210,7 @@
         private Panel panel1;
         private PictureBox pictureBox1;
         private Button buttonChartAddLine_BKV;
-        private Button button2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartProduct;
-        private Button buttonCalculation;
+        private ToolTip toolTipOtziv;
     }
 }

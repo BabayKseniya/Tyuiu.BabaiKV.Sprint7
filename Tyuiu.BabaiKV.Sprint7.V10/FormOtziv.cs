@@ -14,6 +14,7 @@ using System.Runtime.CompilerServices;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Threading;
+using System.Windows.Forms.DataVisualization.Charting;
 namespace Tyuiu.BabaiKV.Sprint7.V10
 {
     public partial class FormOtziv : Form
@@ -48,8 +49,14 @@ namespace Tyuiu.BabaiKV.Sprint7.V10
             // Загрузка данных из CSV в DataGridView
             string[] lines = File.ReadAllLines(openfile);
             List<Review> reviews = new List<Review>();
+            //bool isFirstLine = true;  // Флаг для пропуска первой строки
             foreach (string line in lines)
             {
+                //if (isFirstLine)
+                //{
+                //  isFirstLine = false;  // Первая строка пропущена
+                //continue;  // Переходим к следующей строке
+                //}
                 var columns = line.Split(';');
                 if (columns.Length == 4)
                 {
@@ -65,7 +72,7 @@ namespace Tyuiu.BabaiKV.Sprint7.V10
             formOstavOtziv.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonOK_BKV_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -77,14 +84,62 @@ namespace Tyuiu.BabaiKV.Sprint7.V10
 
         private void buttonChartAddLine_BKV_Click(object sender, EventArgs e) //создание графа
         {
-           
+            BuildChartByRating("review.csv");  // Строим график по оценкам
+        }
+        // Метод для построения графика по столбцу "Оценка"
+        private void BuildChartByRating(string filePath)
+        {
+            var ratingsCount = new Dictionary<int, int>();  // Для подсчета количества каждой оценки
+
+            // Чтение файла и обработка данных
+            var lines = File.ReadLines(filePath).Skip(1);  // Пропускаем первую строку (заголовки)
+
+            foreach (var line in lines)
+            {
+                var columns = line.Split(';');
+
+                if (columns.Length == 4)
+                {
+                    // Преобразуем строку в целое число для "Оценка" (столбец 3)
+                    if (int.TryParse(columns[3], out int rating))
+                    {
+                        if (ratingsCount.ContainsKey(rating))
+                        {
+                            ratingsCount[rating]++;
+                        }
+                        else
+                        {
+                            ratingsCount[rating] = 1;
+                        }
+                    }
+                }
+            }
+
+            // Очищаем Chart перед добавлением новых данных
+            chartProduct.Series.Clear();
+            chartProduct.Legends.Clear();
+
+            // Добавляем серию для графика
+            var series = new Series("Оценки")
+            {
+                ChartType = SeriesChartType.Spline  // Столбчатая диаграмма
+            };
+
+            // Добавляем данные для серии
+            foreach (var rating in ratingsCount)
+            {
+                series.Points.AddXY(rating.Key, rating.Value);
+            }
+
+            // Добавляем серию в Chart
+            chartProduct.Series.Add(series);
         }
 
-        private void buttonCalculation_Click(object sender, EventArgs e)
+        private void buttonOK_BKV_Click_1(object sender, EventArgs e)
         {
-            FormCalculation formCalculation = new FormCalculation();
-            formCalculation.ShowDialog();
-            
+            this.Close();
         }
     }
+
 }
+

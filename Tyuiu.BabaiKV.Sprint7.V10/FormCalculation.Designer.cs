@@ -35,6 +35,7 @@
             buttonCount = new Button();
             textBoxResult = new TextBox();
             textBox2 = new TextBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // buttonMax
@@ -106,12 +107,22 @@
             textBox2.BackColor = Color.Thistle;
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            textBox2.Location = new Point(278, 206);
+            textBox2.Location = new Point(278, 108);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(216, 43);
             textBox2.TabIndex = 6;
             textBox2.Text = "Операции над строками таблицы отзывов";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            label1.Location = new Point(345, 231);
+            label1.Name = "label1";
+            label1.Size = new Size(86, 21);
+            label1.TabIndex = 7;
+            label1.Text = "Результат";
             // 
             // FormCalculation
             // 
@@ -119,6 +130,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Thistle;
             ClientSize = new Size(506, 414);
+            Controls.Add(label1);
             Controls.Add(textBox2);
             Controls.Add(textBoxResult);
             Controls.Add(buttonCount);
@@ -131,6 +143,7 @@
             MinimizeBox = false;
             MinimumSize = new Size(522, 453);
             Name = "FormCalculation";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Операции";
             ResumeLayout(false);
             PerformLayout();
@@ -145,5 +158,6 @@
         private Button buttonCount;
         private TextBox textBoxResult;
         private TextBox textBox2;
+        private Label label1;
     }
 }

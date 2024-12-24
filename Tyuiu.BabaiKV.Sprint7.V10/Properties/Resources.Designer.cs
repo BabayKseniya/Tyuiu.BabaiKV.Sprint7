@@ -63,6 +63,66 @@ namespace Tyuiu.BabaiKV.Sprint7.V10.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1735049072512 {
+            get {
+                object obj = ResourceManager.GetObject("1735049072512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1735049093028 {
+            get {
+                object obj = ResourceManager.GetObject("1735049093028", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1735049281333 {
+            get {
+                object obj = ResourceManager.GetObject("1735049281333", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1735049301073 {
+            get {
+                object obj = ResourceManager.GetObject("1735049301073", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1735049569644 {
+            get {
+                object obj = ResourceManager.GetObject("1735049569644", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1735049605277 {
+            get {
+                object obj = ResourceManager.GetObject("1735049605277", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1c1d8fa7_6bfc_4df3_8529_bf9ccf2e5b92 {
             get {
                 object obj = ResourceManager.GetObject("1c1d8fa7-6bfc-4df3-8529-bf9ccf2e5b92", resourceCulture);
@@ -246,6 +306,16 @@ namespace Tyuiu.BabaiKV.Sprint7.V10.Properties {
         internal static System.Drawing.Bitmap photo_2024_12_11_00_49_09 {
             get {
                 object obj = ResourceManager.GetObject("photo_2024-12-11_00-49-09", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2024_12_24_19_17_01 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2024-12-24_19-17-01", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

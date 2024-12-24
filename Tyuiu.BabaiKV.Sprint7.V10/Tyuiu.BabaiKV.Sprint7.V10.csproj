@@ -9,6 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Images\.vs\Images\v17\DocumentLayout.json" />
+    <Content Include="Images\.vs\ProjectSettings.json" />
+    <Content Include="Images\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Images\.vs\Images\FileContentIndex\1b2b0ad1-c064-4e01-8405-ab856a7044fa.vsidx" />
+    <None Include="Images\.vs\slnx.sqlite" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="WinForms.DataVisualization" Version="1.9.2" />
   </ItemGroup>
 
